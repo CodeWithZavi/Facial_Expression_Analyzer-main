@@ -1,0 +1,47 @@
+PROJECT TITLE: Facial Expression Analyzer
+
+INTRODUCTION: The Facial Expression Analyzer is a real-time computer
+vision and deep learning project. It detects human faces through a
+webcam and predicts emotions such as Happy, Sad, Angry, Fear, Surprise,
+Neutral, and Disgust.
+
+OBJECTIVE: The main objective of this project is to analyze facial
+expressions in real time using artificial intelligence and display the
+detected emotion on the screen.
+
+TECHNOLOGIES USED: 1. Programming Language: Python 2. Libraries and
+Tools: - OpenCV (for webcam access and face detection) - TensorFlow /
+Keras (for loading the trained deep learning model) - NumPy (for
+numerical operations)
+
+PROJECT WORKING: 1. The webcam is accessed using OpenCV. 2. Each frame
+from the webcam is converted to grayscale. 3. Haar Cascade Classifier is
+used to detect faces in the frame. 4. The detected face is resized to
+64x64 pixels. 5. The image is normalized and passed to the trained CNN
+model. 6. The model predicts the emotion. 7. The emotion label is
+displayed on the webcam screen.
+
+MODEL DETAILS: The emotion detection model is a Convolutional Neural
+Network (CNN) trained on facial expression images. The model expects
+grayscale images of size 64x64.
+
+FEATURES: - Real-time emotion detection - Face detection using Haar
+Cascade - Live webcam processing - Simple and user-friendly
+
+APPLICATIONS: - Human emotion analysis - AI-based surveillance - Smart
+classroom systems - Mental health analysis - Interview behavior analysis
+
+ADVANTAGES: - Fast and real-time processing - High accuracy with trained
+CNN model - Easy to use and understand
+
+LIMITATIONS: - Requires good lighting - Performance depends on webcam
+quality - Limited emotion categories
+
+FUTURE SCOPE: - Add more emotions - Improve accuracy using better
+datasets - Mobile application integration - Emotion-based
+recommendations
+
+CONCLUSION: The Facial Expression Analyzer successfully demonstrates the
+use of computer vision and deep learning to recognize human emotions in
+real time. It is a useful and practical AI project for learning and
+real-world applications.
